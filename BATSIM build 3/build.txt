@@ -1,0 +1,118 @@
+BATSIM
+
+build 3 (07042023)
+
+	Notes:
+		= Updated the town hall a little bit.
+		= Added some items that won't be available until a later update.
+
+	File Structure:
+		= BATSIM build 3
+			= BATSIM.bat
+			= build.txt
+			= bin
+				= blocks.txt
+				= collide.txt
+				= items.txt
+				= engine.bat
+				= generator.bat
+				= new.bat
+				= save.bat
+				= load.bat
+				= townhall.bat
+				= itemshop.bat
+				= inventory.bat
+
+build 2 (24032023)
+
+	Notes:
+		= Rewrote some of the code again to help optimize or shorten it.
+		= Remade world generation to make it smaller and rewrote the world generation.
+		= Removed multiplayer support to drive focus on the core game.
+		= Changed the item shop a bit to make it better.
+		= The three files: "inventory.bat", "townhall.bat", and "items.txt" are not yet fully functional.
+		= The game should run better from some code changes.
+
+	Features Removed:
+		= Multiplayer
+		= Settings
+
+	File Structure:
+		= BATSIM build 2
+			= BATSIM.bat
+			= build.txt
+			= bin
+				= blocks.txt
+				= collide.txt
+				= items.txt
+				= engine.bat
+				= generator.bat
+				= new.bat
+				= save.bat
+				= load.bat
+				= townhall.bat
+				= itemshop.bat
+				= inventory.bat
+
+build 1 (17032023)
+
+	Notes:
+		= Rewrote some of the code to help optimize or shorten it.
+		= Added functional multiplayer support through the Dropbox desktop application.
+		= Multiplayer will likely be removed for the next build until I'm able to make it more stable.
+
+	Features Added:
+		= Multiplayer
+		= Settings
+		= Item shop
+
+	File Structure:
+		= BATSIM build 1
+			= BATSIM.bat
+			= build.txt
+			= bin
+				= engine.bat
+				= singleplayer.bat
+				= multiplayer.bat
+				= nls.bat
+				= generator.bat
+				= collide.bat
+				= blocks.txt
+				= settings.txt
+
+build 0 (10032023)
+
+	Notes:
+		= First official release of BATSIM. In future updates the format of files, folders, and documents may change.
+		= Future updates will be made and hopefully released at least once a month at least and at most once a week.
+
+	Features Added:
+		= Added functional player and camera movement with collision.
+		= Added functional save files that can be loaded.
+		= Added functional random terrain and structure generation.
+		= Added functional settings menu to toggle light and dark mode.
+
+	Structures Added:
+		= Town Hall [T]
+		= Item Shop [I]
+
+	Blocks Added:
+		= Walls [#]
+		= Water [~]
+
+	Items Added:
+		= Coins [§]
+		= Flowers []
+		= Stone []
+		= Wood []
+
+	File Structure:
+		= BATSIM build 0
+			= BATSIM.bat
+			= build.txt
+			= bin
+				= engine.bat
+				= nls.bat
+				= generator.bat
+				= collide.bat
+				= collide.txt
